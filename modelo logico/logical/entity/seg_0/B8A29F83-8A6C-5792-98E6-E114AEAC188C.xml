@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B8A29F83-8A6C-5792-98E6-E114AEAC188C" name="Editora">
+<createdBy>chris</createdBy>
+<createdTime>2020-04-14 22:51:19 UTC</createdTime>
+<ownerDesignName>modelo logico</ownerDesignName>
+<engineerTo>
+<item key="F52674C7-516D-FE98-AADF-28CFA71B9EB1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="64848117-CAF4-916C-0D44-C160F2A037AD">
+<createdBy>chris</createdBy>
+<createdTime>2020-04-14 22:51:37 UTC</createdTime>
+<ownerDesignName>modelo logico</ownerDesignName>
+<engineerTo>
+<item key="F52674C7-516D-FE98-AADF-28CFA71B9EB1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Endereço" id="0818C799-6F31-AA54-0421-BB913E12650F">
+<createdBy>chris</createdBy>
+<createdTime>2020-04-14 22:51:43 UTC</createdTime>
+<ownerDesignName>modelo logico</ownerDesignName>
+<engineerTo>
+<item key="F52674C7-516D-FE98-AADF-28CFA71B9EB1" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefone" id="78146AB5-7C80-90EE-6AF4-B57DBC890383">
+<createdBy>chris</createdBy>
+<createdTime>2020-04-14 22:51:47 UTC</createdTime>
+<ownerDesignName>modelo logico</ownerDesignName>
+<engineerTo>
+<item key="F52674C7-516D-FE98-AADF-28CFA71B9EB1" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gerente" id="D8EC357A-2087-67EF-11A1-D91F8406F0EE">
+<createdBy>chris</createdBy>
+<createdTime>2020-06-02 19:32:17 UTC</createdTime>
+<ownerDesignName>modelo logico</ownerDesignName>
+<engineerTo>
+<item key="F52674C7-516D-FE98-AADF-28CFA71B9EB1" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="63577FBD-E9C8-01D8-3822-D72AF37C425C" name="Editora PK">
+<createdBy>chris</createdBy>
+<createdTime>2020-06-02 20:04:25 UTC</createdTime>
+<ownerDesignName>modelo logico</ownerDesignName>
+<engineerTo>
+<item key="F52674C7-516D-FE98-AADF-28CFA71B9EB1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

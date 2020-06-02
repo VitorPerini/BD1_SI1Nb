@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="623ED44E-4B98-95E1-58E4-5BE7582EF461" name="Livro">
+<createdBy>chris</createdBy>
+<createdTime>2020-04-14 22:49:55 UTC</createdTime>
+<ownerDesignName>modelo logico</ownerDesignName>
+<engineerTo>
+<item key="F52674C7-516D-FE98-AADF-28CFA71B9EB1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ISBN" id="C75ED60B-5FAB-7F3E-FB39-F5B2CAE5B23D">
+<createdBy>chris</createdBy>
+<createdTime>2020-04-14 22:50:34 UTC</createdTime>
+<ownerDesignName>modelo logico</ownerDesignName>
+<engineerTo>
+<item key="F52674C7-516D-FE98-AADF-28CFA71B9EB1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Quantidade" id="8D5AB117-89E2-7738-8970-E671F89B8090">
+<createdBy>chris</createdBy>
+<createdTime>2020-04-14 22:50:09 UTC</createdTime>
+<ownerDesignName>modelo logico</ownerDesignName>
+<engineerTo>
+<item key="F52674C7-516D-FE98-AADF-28CFA71B9EB1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Autor" id="35A8D714-5E21-AFBF-C13D-230A3B9274A9">
+<createdBy>chris</createdBy>
+<createdTime>2020-04-14 22:50:29 UTC</createdTime>
+<ownerDesignName>modelo logico</ownerDesignName>
+<engineerTo>
+<item key="F52674C7-516D-FE98-AADF-28CFA71B9EB1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="venda_id" id="8DC0475C-FC69-85AA-2DC8-23A5DE595F39">
+<createdBy>chris</createdBy>
+<createdTime>2020-06-02 19:35:47 UTC</createdTime>
+<ownerDesignName>modelo logico</ownerDesignName>
+<engineerTo>
+<item key="F52674C7-516D-FE98-AADF-28CFA71B9EB1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="C5BC5259-BD6F-9DE6-50C1-2D65C88B5F67">
+<createdBy>chris</createdBy>
+<createdTime>2020-06-02 19:56:05 UTC</createdTime>
+<generatorID>A04F5552-FB22-CEC7-2E7E-2903810F0EB6</generatorID>
+<ownerDesignName>modelo logico</ownerDesignName>
+<engineerTo>
+<item key="F52674C7-516D-FE98-AADF-28CFA71B9EB1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>55B12308-1335-82E8-C7C9-345CE7AEFE8A</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="C33B7888-A382-1C09-5362-5F73107832ED">
+<createdBy>chris</createdBy>
+<createdTime>2020-06-02 19:58:27 UTC</createdTime>
+<generatorID>CC7A86C2-CA9C-3DBB-A5EC-790B187FADD0</generatorID>
+<ownerDesignName>modelo logico</ownerDesignName>
+<engineerTo>
+<item key="F52674C7-516D-FE98-AADF-28CFA71B9EB1" value="true"/>
+</engineerTo>
+<referedAttribute>7AC7CDF5-302D-8E97-20C2-827508EAA383</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="347C78B7-AC93-6D12-4A06-E491899FE5AC" name="Livro PK">
+<createdBy>chris</createdBy>
+<createdTime>2020-06-02 19:56:24 UTC</createdTime>
+<ownerDesignName>modelo logico</ownerDesignName>
+<engineerTo>
+<item key="F52674C7-516D-FE98-AADF-28CFA71B9EB1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C75ED60B-5FAB-7F3E-FB39-F5B2CAE5B23D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0DA069C1-245A-E2FB-CF6C-17EC042515EB" name="atendimento">
+<createdBy>chris</createdBy>
+<createdTime>2020-06-02 19:41:33 UTC</createdTime>
+<ownerDesignName>modelo logico</ownerDesignName>
+<engineerTo>
+<item key="F52674C7-516D-FE98-AADF-28CFA71B9EB1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="0A221C05-D138-587F-A331-A47CC28DF8C4">
+<createdBy>chris</createdBy>
+<createdTime>2020-06-02 19:51:23 UTC</createdTime>
+<ownerDesignName>modelo logico</ownerDesignName>
+<engineerTo>
+<item key="F52674C7-516D-FE98-AADF-28CFA71B9EB1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="3DEA1180-F086-1580-449B-2E6F7C408F91">
+<createdBy>chris</createdBy>
+<createdTime>2020-06-02 19:51:31 UTC</createdTime>
+<ownerDesignName>modelo logico</ownerDesignName>
+<engineerTo>
+<item key="F52674C7-516D-FE98-AADF-28CFA71B9EB1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data" id="6C084433-ED34-1737-1AD4-2118BAE85648">
+<createdBy>chris</createdBy>
+<createdTime>2020-06-02 19:51:41 UTC</createdTime>
+<ownerDesignName>modelo logico</ownerDesignName>
+<engineerTo>
+<item key="F52674C7-516D-FE98-AADF-28CFA71B9EB1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="avaliacao" id="E12AD83E-ABC6-276D-F18E-F56F49EE0CDD">
+<createdBy>chris</createdBy>
+<createdTime>2020-06-02 19:51:48 UTC</createdTime>
+<ownerDesignName>modelo logico</ownerDesignName>
+<engineerTo>
+<item key="F52674C7-516D-FE98-AADF-28CFA71B9EB1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="atendente_funcionario_id" id="F873D16C-EF36-13AE-79C2-C250772C4BD0">
+<createdBy>chris</createdBy>
+<createdTime>2020-06-02 19:53:38 UTC</createdTime>
+<ownerDesignName>modelo logico</ownerDesignName>
+<engineerTo>
+<item key="F52674C7-516D-FE98-AADF-28CFA71B9EB1" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="funcionario_id" id="E2A6AE3F-B395-92F4-89F8-4A031057A760">
+<createdBy>chris</createdBy>
+<createdTime>2020-06-02 20:09:20 UTC</createdTime>
+<generatorID>420D3E36-4259-4F25-62D8-DCC6014ABF6A</generatorID>
+<ownerDesignName>modelo logico</ownerDesignName>
+<engineerTo>
+<item key="F52674C7-516D-FE98-AADF-28CFA71B9EB1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E3961762-3E33-65C8-0B6D-D4CC210707C4</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B2956DB9-CA22-FE4F-0183-C5B16E69FC99" name="atendimento PK">
+<createdBy>chris</createdBy>
+<createdTime>2020-06-02 20:04:46 UTC</createdTime>
+<ownerDesignName>modelo logico</ownerDesignName>
+<engineerTo>
+<item key="F52674C7-516D-FE98-AADF-28CFA71B9EB1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0A221C05-D138-587F-A331-A47CC28DF8C4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
